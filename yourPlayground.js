@@ -69,3 +69,18 @@ const mult=(a,b)=>{
   return a*b
 }
 console.log(mult(10,10))
+
+//Arrays
+const groceries=['banana','apple','orange','pear']
+console.log(groceries[0])          //print banana only
+   //grab all index
+console.log(groceries)
+//grab 1 index
+console.log(groceries[1])          //print apple only
+//grab 3rd index
+console.log(groceries[3])          //print pear only
+//adding one more element to the index
+groceries.push('football')
+console.log(groceries)
+ groceries.push('blueberry')
+console.log(groceries)
