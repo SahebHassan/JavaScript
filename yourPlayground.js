@@ -84,3 +84,8 @@ groceries.push('football')
 console.log(groceries)
  groceries.push('blueberry')
 console.log(groceries)
+
+//arrays slice
+console.log(groceries.slice(3,6))  //start from 3 and goes to 6 not include 7 index- 
+                                   //-value
+console.log(groceries.slice(1,4))
