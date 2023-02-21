@@ -123,12 +123,28 @@
 
 //calling funcion with object
 //es6 arrow function
+// const introducer=(name,shirt)=>{
+//   const person={
+//     name: name ,
+//     shirt: shirt
+//   }
+//   const intro=`hi my name is ${person.name} and color of my shirt is ${person.shirt}`
+//   return intro
+// }
+// console.log(introducer('Saheb','Black'))
+
+//Methods in Objects
 const introducer=(name,shirt)=>{
   const person={
     name: name ,
-    shirt: shirt
+    shirt: shirt,
+    assest: 100000,
+    libilities: 50000,
+    netWorth:function(){
+      return this.assest-  this.libilities
+    }
   }
-  const intro=`hi my name is ${person.name} and color of my shirt is ${person.shirt}`
+  const intro=`hi my name is ${person.name} and color of my shirt is ${person.shirt} and my netWorth is $${person.netWorth()}`
   return intro
 }
 console.log(introducer('Saheb','Black'))
