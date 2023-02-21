@@ -104,5 +104,10 @@ const person={
 }
 console.log(person.name)
 console.log(person.shirt)
+//bracket notation
 console.log(person['name'])
 console.log(person['shirt'])
+//Assign another key value
+person.phone='9123441006'
+console.log(person['phone'])
+
