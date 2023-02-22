@@ -172,26 +172,37 @@
 
 //Loops
 
-const fruit=['banana','apple','orange','pear','banana','apple','orange','pear' ,'banana','apple','orange','pear','banana','apple','orange','pear']
+// const fruit=['banana','apple','orange','pear','banana','apple','orange','pear' ,'banana','apple','orange','pear','banana','apple','orange','pear']
 
-// for (let i=0;i<fruit.length;i++){
-//   console.log(i,fruit[i])
+// // for (let i=0;i<fruit.length;i++){
+// //   console.log(i,fruit[i])
+// // }
+
+// for(const saheb of fruit){
+//   console.log(saheb)
 // }
 
-for(const saheb of fruit){
-  console.log(saheb)
-}
-
 // sum of arrays
+// const number=[1,2,3,4,5,6]
+
+// for(let i=0;i<number.length;i++){
+//   console.log(i,number[i])
+// }
+
+// for (const numbers of number){
+//   console.log(numbers*2)  //doubling the array
+// }
+
+// printing doubling arrays
 const number=[1,2,3,4,5,6]
 
-for(let i=0;i<number.length;i++){
-  console.log(i,number[i])
-}
 
-for (const numbers of number){
-  console.log(numbers)
+let result=[]
+for(const numbers of number){
+  result.push(numbers*2)
 }
+console.log(result)
+
 
 
 
