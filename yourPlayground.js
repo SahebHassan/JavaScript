@@ -249,32 +249,38 @@
 // // }
 // // console.log(max([1,2,3,4,5]))
 
-// // frequency of word in a string
-// const letterFrequency=(phrase)=>{
-//   console.log(phrase)
-//   for(const letter of phrase){
-//     console.log(letter)
-//   }
-// }
-// letterFrequency('haha')
-
-// word frequency
-const wordFrequency=(phrase)=>{
+// // frequency of letter in a string
+const letterFrequency=(phrase)=>{
+  console.log(phrase)
   let frequency={}
-  words=phrase.split(' ')
-  for(const word of words){
-    console.log(word)
-  
-  if(word in frequency){
-    frequency[word]+=1
-  }else{
-    frequency[word]=1
+  for(const letter of phrase){
+    if(letter in frequency){
+      frequency[letter]+=1
+    }else{
+      frequency[letter]=1
+    }
   }
-}
-  console.log(words)
   return frequency
 }
-console.log(wordFrequency('lol what lol'))
+console.log(letterFrequency('haha'))
+
+// // word frequency
+// const wordFrequency=(phrase)=>{
+//   let frequency={}
+//   words=phrase.split(' ')
+//   for(const word of words){
+//     console.log(word)
+  
+//   if(word in frequency){
+//     frequency[word]+=1
+//   }else{
+//     frequency[word]=1
+//   }
+// }
+//   console.log(words)
+//   return frequency
+// }
+// console.log(wordFrequency('lol what lol'))
 
 
 
