@@ -284,10 +284,15 @@
 
 // array Method(mpping)
 
-const doubleMap=(numbers)=>{
-  return numbers.map(number=>number*2)
-}
-console.log(doubleMap([1,2,3,4]))
+// const doubleMap=(numbers)=>{
+//   return numbers.map(number=>number*2)
+// }
+// console.log(doubleMap([1,2,3,4]))
+
+// Array Method(filter)
+const nums=[1,2,3,4,5,6]
+console.log(nums.filter(num=>num>3))
+
 
 
 
