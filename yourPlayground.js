@@ -289,9 +289,17 @@
 // }
 // console.log(doubleMap([1,2,3,4]))
 
-// Array Method(filter)
-const nums=[1,2,3,4,5,6]
-console.log(nums.filter(num=>num>3))
+// // Array Method(filter)
+// const nums=[1,2,3,4,5,6]
+// console.log(nums.filter(num=>num>3))
+
+// Arrays Method(reduce)
+const actors=[
+  {name:'Johnny',netWorth:2000000},
+  {name:'Amber',netWorth:10},
+  {name:'leonardo',netWorth:10000000}
+]
+console.log(actors.reduce((a,b) => a+b.netWorth,0))
 
 
 
