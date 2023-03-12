@@ -29,6 +29,27 @@
 // // // // // // // // // // // // console.log(mul(15,15))
 
 
+// const randomFruit=(fruits)=>{
+//   const randomNumbers=Math.floor(Math.random()*fruits.length)
+//   console.log(randomNumbers)
+//   return fruits[randomNumbers]
+  
+// }
+//  fruits=['banana','apple','pear','orange']
+// console.log(randomFruit(fruits))
+
+const weatherScore=(weather)=>{
+  let score
+  if(weather=='rainy'){
+    score=1
+  }else if (weather=='sunny'){
+    score=-1
+  }else{
+    score=0
+  }
+  return score
+}
+console.log(weatherScore('rainy'))
 
 
 
@@ -294,12 +315,12 @@
 // console.log(nums.filter(num=>num>3))
 
 // Arrays Method(reduce)
-const actors=[
-  {name:'Johnny',netWorth:2000000},
-  {name:'Amber',netWorth:10},
-  {name:'leonardo',netWorth:10000000}
-]
-console.log(actors.reduce((a,b) => a+b.netWorth,0))
+// const actors=[
+//   {name:'Johnny',netWorth:2000000},
+//   {name:'Amber',netWorth:10},
+//   {name:'leonardo',netWorth:10000000}
+// ]
+// console.log(actors.reduce((a,b) => a+b.netWorth,0))
 
 
 
